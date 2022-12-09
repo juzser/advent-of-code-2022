@@ -1,3 +1,4 @@
+// Author Trungld
 const input = document.querySelector('pre').innerText.trim().replace(/\n/g, '|');
 
 const forest = input.split('|').map(function (line) {
