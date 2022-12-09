@@ -4,7 +4,7 @@ const input = document.querySelector('pre').innerText.trim().replace(/\n/g, '|')
  * Output
  * tree = {
  *   '/': {
- *     dir: object,
+ *     dirName: object (recursive),
  *     size: number
  *   }
  * }
