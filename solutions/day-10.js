@@ -1,4 +1,4 @@
-const data = require('./day-10-input.js');
+const data = document.querySelector('pre').innerText.trim();
 const input = data.replace(/\n/g, '|').split('|');
 
 let cycle = 1;

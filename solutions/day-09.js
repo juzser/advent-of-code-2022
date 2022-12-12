@@ -1,4 +1,4 @@
-const data = require('./day-09-input.js');
+const data = document.querySelector('pre').innerText.trim();
 const input = data.replace(/\n/g, '|').split('|');
 
 const moves = input.map(function (move) {
